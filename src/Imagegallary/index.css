@@ -1,0 +1,13 @@
+.maindiv {
+    width: 100%;
+}
+
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.imagediv {
+    padding: 10px;
+}
