@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import './index.css'
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
   const API_key = "563492ad6f91700001000001a50248a19756492687753a2523d04a50";
   const fetchApi = () => {
     fetch(
-      `https://api.pexels.com/v1/search?query=${inputvalue}&page=${page}&per_page=10`,
+      `https://api.pexels.com/v1/search?query=${inputvalue}&page=${page}&per_page=20`,
       {
         method: "GET",
         headers: {
@@ -39,8 +39,10 @@ const onClickhandle = () => {
 
   return (
     <div className="maindiv">
+      <div className="inputdiv">
       <input onChange={onChangehandle} />
       <button onClick={onClickhandle}>Search</button>
+      </div>
       <div className="card">
     {image && image.length >0 && image.map((value)=>(     
         <div className="imagediv">
