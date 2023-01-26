@@ -32,10 +32,7 @@ const onClickhandle = () => {
   // console.log(data);
   fetchApi();
 }
-  // };
-  // console.log(image)
-  // console.log(data)
-  // console.log(image.photos[0].src.original)
+
 
   return (
     <div className="maindiv">

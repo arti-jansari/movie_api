@@ -3,7 +3,6 @@
     margin:20px auto;
     background-color: black;
     color: aliceblue;
-
 }
 input {
     width: 50%;
@@ -22,17 +21,12 @@ button {
    padding: 7px 25px;
     width: min-content;
     margin: 15px auto;
-    font-size: large;
-   
-   
-
-}
+    font-size: large;  
+   }
 
 .card {
     display: flex;
-    flex-wrap: wrap;
-    
-
+    flex-wrap: wrap;   
 }
 .imagediv {
     padding: 10px;
